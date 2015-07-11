@@ -6,7 +6,7 @@ For mobile, I only tested using Android, though this should theoretically work f
 
 There's two basic Meteor apps in here.
 
-To demonstrate how this works, the `remote-server` Meteor app will act as the remote Meteor server (running on `localhost:4000`) and the `app` will be your web or mobile app (running on `localhost:3000`), which will connect to your `remote-server` Meteor server.
+To demonstrate how this works, the `remote-server` Meteor app will act as the remote Meteor server (running on `localhost:4000`) and the `app` will be your web or mobile app (running on `localhost:3000`), which will connect to your `remote-server` Meteor server. Also, I demonstrate user authentication using `accounts-password` to the `remote-server`.
 
 ## Getting Started
 
