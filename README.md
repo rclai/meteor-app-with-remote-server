@@ -1,6 +1,6 @@
 # Meteor App With Different Meteor Server
 
-A lot of people wanted to know how to develop an app (web or mobile) that uses a different Meteor server backend. This is how.
+A lot of people wanted to know how to develop a Meteor app (web or mobile) that uses a different Meteor server backend. This is how.
 
 For mobile, I only tested using Android, though this should theoretically work for iOS as well. If you don't know already [here's how to get mobile set up for Meteor](https://www.meteor.com/tutorials/blaze/running-on-mobile).
 
