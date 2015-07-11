@@ -3,7 +3,7 @@ if (Meteor.isServer) {
     // Creating one test account
     if (! Meteor.users.findOne()) {
       Accounts.createUser({
-        username: 'test',
+        username: 'bob',
         password: 'test'
       });
     }
