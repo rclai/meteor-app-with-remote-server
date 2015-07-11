@@ -1,0 +1,20 @@
+<head>
+  <title>Remote Meteor Server</title>
+</head>
+
+<body>
+  {{> hello}}
+</body>
+
+<template name="hello">
+  <h1>Welcome to Meteor!</h1>
+  <p>{{test.data}}</p>
+  <p>
+    {{#with currentUser}}
+      You are logged in, {{username}}.
+      <button class="logout">Logout</button>
+    {{else}}
+      <button class="login">Login</button>
+    {{/with}}
+  </p>
+</template>
