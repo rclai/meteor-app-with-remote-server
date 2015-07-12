@@ -12,11 +12,17 @@ To demonstrate how this works, the `remote-server` Meteor app will act as the re
 
 Open up two terminals.
 
+```
+git clone https://github.com/rclai/meteor-app-with-remote-server.git
+cd meteor-app-with-remote-server
+```
+
 #### Terminal 1: Starting the "remote" server.
 
-`cd remote-server`
-
-`sh run.sh`
+```
+cd remote-server
+sh run.sh
+```
 
 #### Terminal 2: Starting your client/mobile app.
 
