@@ -1,4 +1,8 @@
-# Meteor App With Different Meteor Server
+# This is now outdated after Meteor 1.3
+
+You can track the following issue [here](https://github.com/meteor/meteor/issues/3815#issuecomment-200954639) to test/see new workarounds.
+
+## Meteor App With Different Meteor Server
 
 A lot of people wanted to know how to develop a Meteor app (web or mobile) that uses a different Meteor server backend. This is how.
 
